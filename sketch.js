@@ -17,7 +17,7 @@ ship.addAnimation ("movingship", shipImg1);
 ship.scale =0.25;
 }
 function draw() {
-background();
+background(0);
 sea.velocityX = -3;
 //code to reset the background
 if(sea.x < 0) {
